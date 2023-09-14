@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {},
+        {
+            "name": "Touchdesigner: Attach to Process",
+            "type": "python",
+            "request": "attach",
+            "processId": 15396,
+            "justMyCode": true,
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}/modules/suspects",
+                    "remoteRoot": "C:"
+                }
+            ]
+        }
+    ]
+}
