@@ -11,7 +11,4 @@ Tell us something about this project.
 Never have anything config, log or similiar related inside the repository.
 Do not push to this repository with any kind of project related stuff.
 Us this only as a boilerplate.
-# External
-This prefab implements TD_Completes by picturesbyrobots.
-To make full use of it folow install-insntructions.
-https://github.com/picturesbyrobots/td-completes-me
+
