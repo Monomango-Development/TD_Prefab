@@ -1,0 +1,82 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://example.com/product.schema.json",
+ "title": "Product",
+ "description": "A product in the catalog",
+ "type": "object",
+ "properties": {
+  "Some_Integer": {
+   "description": "",
+   "type": [
+    "number",
+    "integer"
+   ]
+  },
+  "Some_String": {
+   "description": "",
+   "type": [
+    "undefined"
+   ]
+  },
+  "Subdata": {
+   "description": "",
+   "type": "object",
+   "properties": {
+    "Sub": {
+     "description": "",
+     "type": [
+      "undefined"
+     ]
+    },
+    "SubDict": {
+     "description": "",
+     "type": "object",
+     "properties": {
+      "SubSubValue": {
+       "description": "",
+       "type": [
+        "string"
+       ]
+      }
+     }
+    }
+   }
+  },
+  "Sublist": {
+   "description": "",
+   "type": "array",
+   "items": {
+    "description": "",
+    "type": [
+     "undefined"
+    ]
+   }
+  },
+  "Prefilled_Sublist": {
+   "description": "",
+   "type": "array",
+   "items": {
+    "description": "",
+    "type": [
+     "undefined"
+    ]
+   }
+  },
+  "PositiveValue": {
+   "description": "",
+   "type": [
+    "undefined"
+   ]
+  },
+  "Prefilled_Validated": {
+   "description": "",
+   "type": "array",
+   "items": {
+    "description": "",
+    "type": [
+     "undefined"
+    ]
+   }
+  }
+ }
+}
