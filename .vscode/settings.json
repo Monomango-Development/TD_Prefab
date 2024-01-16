@@ -1,4 +1,4 @@
-{   
+{
     "python.analysis.autoFormatStrings": true,
     "python.analysis.stubPath": "typings",
     "python.analysis.extraPaths": [
