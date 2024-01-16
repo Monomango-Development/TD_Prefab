@@ -1,0 +1,6 @@
+{
+    "Trigger" : {
+        "arguments"     : [ "length:float" ],
+        "optional"		: [ "optional:str='hello'"]
+    } 
+}

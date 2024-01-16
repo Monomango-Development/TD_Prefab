@@ -1,3 +1,8 @@
 {
-    "python.analysis.extraPaths": ["TDImportCache/Lib"]
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.stubPath": "typings",
+    "python.analysis.extraPaths": [
+        "TDImportCache/Lib",
+        "C:/Program Files/Derivative/TouchDesigner.2022.32660/bin/Lib"
+    ]
 }
